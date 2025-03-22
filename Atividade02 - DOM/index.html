@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Web</title>
+</head>
+<body>
+    <div id="container-contador">
+        Número: <p id="countNum">0</p>
+        <button onclick="iteracao(-1)" id="botao-decr">-1</button>
+        <button onclick="iteracao(1)" id="botao-incr" >+1</button>
+        <span id="countClique">0 cliques</span>
+    </div>
+    <br>
+    <br>
+    <div id="container-texto">
+        <input type="text" id="texto_input" placeholder="Digite e pressione Enter para adicionar o texto" onkeypress="textoDinamico(event)">
+        <button onclick="limpar()">Limpar</button>
+        <br>
+        <div id="textos"></div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
