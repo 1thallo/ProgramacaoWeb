@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar e Marcar Itens</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- TEXTO PRINCIPAL-->
+    <h1>Adicionar Item à Tabela</h1>
+    <br>
+    <!-- campo de Texto -->
+    <input type="text" name="inputItem" id="inputItem" placeholder="Digite um item">
+    
+    <!--botão de Adicionar-->
+    <button id="btnAdicionar">Adicionar</button>
+    <br>
+
+    <hr>
+    <!--Tabela de itens; itens vindo do campo de texto após adição pelo botão -->
+    <h2>Tabela de itens</h2>
+
+    <!--tabela  deve conter bordas -->
+    <table id="tabelaItens">
+        <!-- <thead>Item</thead> -->
+        <th>Item
+            <tr>
+                <td>Item 01</td>
+            </tr>
+                <td>Item 02</td>
+        </th>
+    </table>
+
+    <hr>
+    <!-- Select list, botões de marcar / desmarcar / remover item-->
+    <h2>Marcar ou Desmarcar o Item</h2>
+    <label> Escolha o item:    
+        <select>
+            <!-- disabled select para que não seja possível selecionar o item, agindo como placeholder-->
+            <option value="" disabled selected> -- Selecione um item -- </option>
+        </select>
+    </label>
+
+    <!--botões de ações-->
+    <button id="btnMarcar">Marcar</button>
+    <button id="btnDesmarcar">Desmarcar</button>
+    <button id="btnRemover">Remover Item</button>
+
+</body>
+</html>
