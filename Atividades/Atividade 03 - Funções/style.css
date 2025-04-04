@@ -5,3 +5,79 @@
 th,td{
     border: 1px solid black;
 }
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do subtítulo */
+h2 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Estilo do campo de entrada */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da tabela */
+#tabelaItens {
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo do select */
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 320px;
+}
+
+/* Espaçamento entre os botões */
+button + button {
+    margin-left: 10px;
+}
