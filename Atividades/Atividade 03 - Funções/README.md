@@ -11,7 +11,7 @@ Você deverá criar uma página web interativa que inclua as seguintes ações:
 - Ao escolher o item, o programa deve conter um botão para marcar, desmarcar ou remover esse item na tabela:  
   - Para o botão **"Marcar"**, o programa deverá marcar o item na cor **amarela**;  
   - Para o botão **"Desmarcar"**, considere a situação:  
-    - Se o item selecionado já estiver **desmarcado**, apresente uma mensagem para o usuário, informando que **não é possível desmarcar**;  
+    - Se o item selecionado já estiver **desmarcado**, apresente um alerta para o usuário, informando que **não é possível desmarcar**;  
     - Se o item selecionado estiver **marcado**, realize a ação de retirar a marcação.  
   - Para o botão **"Remover"**, o programa deverá remover o item selecionado.  
 
